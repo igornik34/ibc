@@ -1,0 +1,32 @@
+<header class="site-header">
+    <div class="l-outer-width l-inner-padding">
+        <div class="site-header__top">
+            <a href="#" class="site-header__logo">
+                {{ inc.inlineSvg('header-logo', '../static/img/logo.svg')}}
+            </a>
+            <div class="site-header__actions">
+                <a href="tel:+74951650198" class="site-header__tel">+7 (495) 165 01 98</a>
+                <form action="" class="site-header__search">
+                    <button class="site-header__search-btn" type="button">
+                        {{ inc.inlineSvg('header-search', '../static/img/search.svg') }}
+                    </button>
+                    <label for="searchInput" class="site-header__search-label">
+                        <input type="text" name="search" id="searchInput">
+                    </label>
+                </form>
+            </div>
+        </div>
+        <nav class="site-header__menu">
+            <ul class="site-header__menu-left">
+                <li class="site-header__menu-item _drop-down-menu"><a href="#">Сегменты</a></li>
+                <li class="site-header__menu-item _drop-down-menu"><a href="#">Услуги компании</a></li>
+                <li class="site-header__menu-item"><a href="#">Исследования и аналитика</a></li>
+            </ul>
+            <ul class="site-header__menu-right">
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
